@@ -1,0 +1,173 @@
+/* style untuk  selector - body */
+body {
+    background-color: cornsilk;
+    margin: 0px;
+}
+
+/* Style untuk Heading - BEGIN */
+h1 {
+    color:black;
+    font-family: 'Times New Roman', Times, serif;
+    text-decoration: none;
+    text-align: center;
+}
+
+h3 {
+    color: blanchedalmond;
+}
+/* Style untuk Heading - END */
+
+/* Style untuk link - BEGIN */
+a:active {
+    color: gold;
+}
+a:hover{
+    color: darkcyan; 
+}
+
+a:visited{
+    color: brown;
+    background: lightcoral
+}
+/*Style untuk Link - END */
+
+/*style berbentuk class - BEGIN */
+.Header1 {
+    color: black;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-transform: uppercase;
+}
+.container{
+    background-color: beige;
+    margin: 10px auto;
+    overflow: auto;
+    width: 60%;
+}
+.logo{
+    text-align: center;
+    width: 60%;
+    background-image: url('../images/bisa.jpg')
+}
+.jumbotron{
+    background-image: url('../images/bisa.jpg');
+    background-size: cover;
+    /*background-color: darkkhaki*/
+    border: solid 1px lightcoral;
+    border-radius: 8px;
+    height: 300px;
+}
+.jumbotron h1 {
+    margin: 20px 40px;
+    font-size: 24px;
+}
+.jumbotron h3 {
+    margin:20px 40px;
+    font-size: 20px;
+}
+.footer{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: #333333;
+    background-color: lightcyan;
+    padding: 10px 0px;
+    text-align: center;
+    border-radius: 8px;
+    font-size: 11px
+}
+
+/*style berbentuk class -END */
+
+/* Menu Header - BEGIN */
+.menu-header {
+    background-color:darksalmon;
+    border-radius: 8px;
+    box-shadow: 0 3px 5px -1px rgba(0, 0, 0,  0.2),
+                0 6px 10px 0 rgba(0, 0, 0,  0.14),
+                0 1px 18px 0 rgba(0, 0, 0,  0.12);
+}
+.menu-header li {
+    display: inline-block;
+}
+.menu-header a {
+    font-family: 'Courier New', Courier, monospace;
+    text-transform: initial;
+    color: white;
+    text-decoration: none;
+    padding: 10px 20px;
+    letter-spacing: 1px;
+}
+.menu-header a:hover {
+    color: crimson;
+
+}
+/* Menu Header - END */
+
+/* Card Home - BEGIN */
+.cardhome{
+    background-image: url('../images/ini.jpg');
+    width:30%;
+    height: 150px;
+    border-radius: 0 0 20px 20px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0,  0.2); /* this adds the "card" effect */
+    display: inline-block;
+}
+.cardhead{
+    padding:10px 0px;
+    border-bottom: solid 1px black;
+    
+}
+.cardhead h3{
+    color: black;
+    text-align:center;
+    margin: 0px;
+    font-family: times new roman;
+}
+.cardbody{
+    padding: 10px;
+    text-align: center;
+}
+.cardbody p{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 16px;
+}
+.cardflex{
+    display: flex;
+    justify-content: space-between;
+}
+/* Card Home - END */
+
+/* News - Begin */
+.news-item{
+    background-color: lavender;
+    width: 48%;
+    display: inline-block;
+}
+.news-item h4{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 14px;
+    letter-spacing:  2px;
+}
+.news-item h2{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
+    letter-spacing: 1px;
+}
+.news-item p{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    letter-spacing: 1px;
+}
+.news-item a{
+    display: inline-block;
+    background-color:lightblue;
+    color: #333333;
+    padding: 10px 10px;
+    border-radius: 4px;
+    font-size: 10px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    text-decoration: none;
+}
+/* News - End*/
+
+.section{
+    background-image: url('../images/peach.jpg');
+}
