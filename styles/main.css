@@ -12,9 +12,11 @@ h1 {
     text-align: center;
 }
 
-h3 {
-    color: blanchedalmond;
+h5 {
+    color: black;
+    text-align: center;
 }
+
 /* Style untuk Heading - END */
 
 /* Style untuk link - BEGIN */
@@ -45,8 +47,8 @@ a:visited{
 }
 .logo{
     text-align: center;
-    width: 60%;
-    background-image: url('../images/bisa.jpg')
+    width: 100%;
+    background-image: url('../images/back.jpg')
 }
 .jumbotron{
     background-image: url('../images/bisa.jpg');
@@ -65,13 +67,14 @@ a:visited{
     font-size: 20px;
 }
 .footer{
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-family: Arial, Helvetica, sans-serif ;
     color: #333333;
-    background-color: lightcyan;
-    padding: 10px 0px;
+    background-color:lightgrey;
+    padding:6px 0px;
     text-align: center;
-    border-radius: 8px;
-    font-size: 11px
+    border-radius: 3px;
+    font-size: 11px;
+    width: 100%;
 }
 
 /*style berbentuk class -END */
@@ -103,12 +106,13 @@ a:visited{
 
 /* Card Home - BEGIN */
 .cardhome{
-    background-image: url('../images/ini.jpg');
-    width:30%;
+    background-image: url('../images/peach.jpg');
+    width:50%;
     height: 150px;
     border-radius: 0 0 20px 20px;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0,  0.2); /* this adds the "card" effect */
-    display: inline-block;
+    display:inline-block;
+    text-align: center;
 }
 .cardhead{
     padding:10px 0px;
